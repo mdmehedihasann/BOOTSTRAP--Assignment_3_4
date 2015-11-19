@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!--
+This code was written by:
+Md Mehedi Hasan Nahid
+CTG-07 (DIU - 2)
+Student ID: 2903,
+Phone: 01623534422
+Email: dhrubo.smm@gmail.com
+-->
+<html>
+    <head>
+        <title>Asignment_4: Dashboard Layout</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <!--NAVIGATION Bar-->
+        <div class="container-fluid">
+           <div class="row">
+            <nav class="navbar navbar-default">
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                <a class="nav navbar-brand">ForgDirect: ETMS</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Employee Dashboard</a></li>
+                    <li><a href="#">Courses Dashboard</a></li>
+                </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 dropdown">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown-toggle" data-toggle="dropdown"><a href="#"><span class="glyphicon glyphicon-user"></span> About Me <span class="glyphicon glyphicon-chevron-down"></span></a></li>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">About the company</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </ul>
+                </div>
+            </nav>
+            </div>
+        </div>
+        <!--End of NAVIGATION Bar-->
+        
+        <!--CONTENT-->
+        <div class="container">
+            <div class="row">
+               <div class="col-xs-12 col-sm-9">
+                <p id="nahid1"><span class="glyphicon glyphicon-dashboard"> </span> Employee Training Dashboard</p>
+               </div>
+               <div class="col-xs-12 col-sm-3">
+                <button class="btn btn-primary">Create a new assignment</button>
+               </div>
+            </div>
+            
+            <!--Panel 1-->
+            <div class="row"><hr>
+                <div class="panel panel-info">
+                    <div class="panel-heading"><span class="glyphicon glyphicon-user"></span><b> 1 - Siraj Gadhia </b> (12/12/1999) <button class="btn btn-primary btn-xs"> Edit </button><div  class="badge pull-right">2/4</span></div></div>
+                        <table class="table table-bordered table-responsive">
+                            <tr class="warning">
+                                <th></th>
+                                <th>Status</th>
+                                <th>Course Code</th>
+                                <th>Action</th>
+                            </tr>
+                            <tr class="text-center success">
+                                <td><span class="badge">1</span></td>
+                                <td><span class="glyphicon glyphicon-ok"></span></td>
+                                <td><strong>OIMS</strong></td>
+                                <td class="text-left"><span class="btn btn-default btn-xs">Mark pending</span></td>
+                            </tr>
+                            <tr>
+                                <tr class="text-center">
+                                <td><span class="badge">2</span></td>
+                                <td><span class="glyphicon glyphicon-remove"></span></td>
+                                <td><strong>FSDL</strong></td>
+                                <td class="text-left"><span class="btn btn-success btn-xs">Mark Complete</span></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <tr class="text-center">
+                                <td><span class="badge">3</span></td>
+                                <td><span class="glyphicon glyphicon-remove"></span></td>
+                                <td><strong>CCMP</strong></td>
+                                <td class="text-left"><span class="btn btn-success btn-xs">Mark Complete</span></td>
+                            </tr>
+                            <tr class="text-center success">
+                                <td><span class="badge">1</span></td>
+                                <td><span class="glyphicon glyphicon-ok"></span></td>
+                                <td><strong>FIMN</strong></td>
+                                <td class="text-left"><span class="btn btn-default btn-xs">Mark pending</span></td>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+            
+            
+            <!--Panel 2-->
+            <div class="row"><hr>
+                <div class="panel panel-success">
+                    <div class="panel-heading"><span class="glyphicon glyphicon-user"></span><b> 2 - Amitkumar Patel </b>(12/12/2004) <button class="btn btn-primary btn-xs">Edit</button><div  class="badge  pull-right">4/4</span></div></div>
+                        <table class="table table-bordered table-responsive">
+                            <tr class="warning">
+                                <th></th>
+                                <th>Status</th>
+                                <th>Course Code</th>
+                                <th>Action</th>
+                            </tr>
+                            <tr class="text-center success">
+                                <td><span class="badge">1</span></td>
+                                <td><span class="glyphicon glyphicon-ok"></span></td>
+                                <td><strong>OIMS</strong></td>
+                                <td class="text-left"><span class="btn btn-default btn-xs">Mark pending</span></td>
+                            </tr>
+                            <tr>
+                                <tr class="text-center success">
+                                <td><span class="badge">2</span></td>
+                                <td><span class="glyphicon glyphicon-remove"></span></td>
+                                <td><strong>FSDL</strong></td>
+                                <td class="text-left"><span class="btn btn-default btn-xs">Mark pending</span></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <tr class="text-center success">
+                                <td><span class="badge">3</span></td>
+                                <td><span class="glyphicon glyphicon-remove"></span></td>
+                                <td><strong>CCMP</strong></td>
+                                <td class="text-left"><span class="btn btn-default btn-xs">Mark pending</span></td>
+                            </tr>
+                            <tr class="text-center success">
+                                <td><span class="badge">1</span></td>
+                                <td><span class="glyphicon glyphicon-ok"></span></td>
+                                <td><strong>RPAS</strong></td>
+                                <td class="text-left"><span class="btn btn-default btn-xs">Mark pending</span></td>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+            
+            
+            <!--Panel 3-->
+            <div class="row"><hr>
+                <div class="panel panel-danger">
+                    <div class="panel-heading"><span class="glyphicon glyphicon-user"></span><b> 2 - Amitkumar Patel </b>(12/12/2004) <button class="btn btn-primary btn-xs">Edit</button><div  class="badge  pull-right">0/4</span></div></div>
+                        <table class="table table-bordered table-responsive">
+                            <tr class="warning">
+                                <th></th>
+                                <th>Status</th>
+                                <th>Course Code</th>
+                                <th>Action</th>
+                            </tr>
+                            <tr class="text-center">
+                                <td><span class="badge">1</span></td>
+                                <td><span class="glyphicon glyphicon-remove"></span></td>
+                                <td><strong>OIMS</strong></td>
+                                <td class="text-left"><span class="btn btn-success btn-xs">Mark Complete</span></td>
+                            </tr>
+                            <tr>
+                                <tr class="text-center">
+                                <td><span class="badge">2</span></td>
+                                <td><span class="glyphicon glyphicon-remove"></span></td>
+                                <td><strong>FSDL</strong></td>
+                                <td class="text-left"><span class="btn btn-success btn-xs">Mark Complete</span></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <tr class="text-center">
+                                <td><span class="badge">3</span></td>
+                                <td><span class="glyphicon glyphicon-remove"></span></td>
+                                <td><strong>CCMP</strong></td>
+                                <td class="text-left"><span class="btn btn-success btn-xs">Mark Complete</span></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td><span class="badge">1</span></td>
+                                <td><span class="glyphicon glyphicon-remove"></span></td>
+                                <td><strong>RPAS</strong></td>
+                                <td class="text-left"><span class="btn btn-success btn-xs">Mark Complete</span></td>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+        </div>
+        <!--End of CONTENT-->
+        
+        
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
